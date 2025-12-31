@@ -1,0 +1,15 @@
+# Compiled binaries
+cmdcore.exe
+cmdcore
+*.out
+
+# Object files
+*.o
+
+# Build folders
+build/
+bin/
+
+# OS junk
+.DS_Store
+Thumbs.db
