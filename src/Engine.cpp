@@ -20,7 +20,6 @@ void Engine::run(){
       cout<<"unkown command"<<endl;
       ParsedCommand pc = parser.parse(input);
 
-      // ---- TEMP TEST OUTPUT ----
       cout << "COMMAND: " << pc.command << endl;
 
       for (string arg : pc.args) {
